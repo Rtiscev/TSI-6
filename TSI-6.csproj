@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>TSI_6</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\images\1%29hardware\1_hardware.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Questions\Вопросы оценки угроз\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\images\1)hardware\1_hardware.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
